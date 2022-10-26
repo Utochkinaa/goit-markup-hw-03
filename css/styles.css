@@ -1,0 +1,223 @@
+/* Основной цвет фона F5F5F5 */
+/* Вторичный цвет фона 2F303A */
+/* Основной цвет текста 212121 */
+/* вторичный цвет текста 757575 */
+/* доп.цвета лого,хедер голубой:2196F3, черный:000000 */
+/* цвет кнопок 2196F3 */
+/* цвет кнопок портфолио неакт F5F4FA */
+
+:root {
+  /* Fonts */
+
+  --main-font: roboto, sans-serif;
+  --logo-font: raleway, sans-serif;
+
+  /* Text colors */
+
+  --primary-color: #212121;
+  --secondary-color: #757575;
+  --hero-color: #ffffff;
+
+  /* Background colors */
+
+  --primary-bkgcolor: #f5f5f5;
+  --secondary-bkgcolor: #2f303a;
+  --body-bgk: #f5f5f5;
+
+  /* Others */
+
+  --button-color-hero: #2196f3;
+  --button-color: #f5f4fa;
+  --link-active: #2196f3;
+  --light-bgk: #f5f4fa;
+  --button-color-active: #188ce8;
+  --logo-header: #000000;
+  --contacts-footer: rgba(255, 255, 255, 0.6);
+}
+
+.body {
+  background-color: var(--body-bgk);
+  font-size: 14px;
+  font-family: var(--main-font);
+  letter-spacing: 0.03em;
+  color: var(--primary-color);
+}
+
+.hero {
+  background-color: var(--secondary-bkgcolor);
+}
+
+.title {
+  color: var(--hero-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.logo {
+  font-style: Bold;
+  font-size: 26px;
+  font-weight: 400;
+  color: var(--link-active);
+  text-decoration: none;
+  font-family: var(--logo-font);
+  line-height: 1.19;
+}
+
+.logo-header {
+  color: var(--logo-header);
+  font-family: var(--logo-font);
+  font-weight: 400;
+  line-height: 1.19;
+}
+
+.list-nav {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.link-nav:hover,
+.link-nav:focus {
+  color: var(--link-active);
+}
+
+.link-nav {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+.list-nav,
+.list-item,
+.list,
+.contacts-list,
+.btn-list,
+.work-list {
+  list-style: none;
+  font-style: normal;
+}
+
+.link-contact:hover,
+.link-contact:focus {
+  color: var(--link-active);
+}
+.link-contact {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: calc(16 / 14);
+  text-decoration: none;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+
+.btn-hero {
+  font-family: inherit;
+  background-color: var(--button-color-hero);
+  color: var(--hero-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  text-align: center;
+  cursor: pointer;
+  letter-spacing: 0, 06em;
+}
+
+.subtitle {
+  font-size: 14px;
+  line-height: 1.14;
+  list-style: none;
+  letter-spacing: 0.03em;
+}
+
+.desk {
+  color: var(--secondary-color);
+  font-size: 14px;
+  letter-spacing: ;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+.team {
+  background-color: var(--light-bgk);
+}
+
+.team-list {
+  background-color: var(--hero-color);
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.team-position {
+  color: var(--secondary-color);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.footer {
+  background-color: var(--secondary-bkgcolor);
+}
+
+.logo-accent {
+  color: var(--hero-color);
+  font-family: var(--logo-font);
+  line-height: calc(31 / 26);
+}
+
+.address {
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  text-decoration: none;
+  color: var(--hero-color);
+}
+.contacts {
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+/* Portfolio Buttons */
+
+.btn-filter {
+  font-family: inherit;
+  background-color: var(--button-color);
+  color: var(--primary-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: calc(26 / 16);
+  text-align: center;
+  cursor: pointer;
+  border: none;
+}
+
+.btn-filter:hover,
+.btn-filter:focus {
+  color: var(--hero-color);
+  background-color: var(--link-active);
+}
+
+.project-name {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+}
+
+.work-type {
+  color: var(--secondary-color);
+  font-size: 16px;
+  line-height: calc(30 / 16);
+}
